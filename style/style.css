@@ -1,0 +1,122 @@
+/* Fuente de texto */
+/* Varela Round Noto Serif*/
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Formateo de valores predeterminados */
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    width: 100%;
+    height: 70pt;
+    background-color: #F8F9FA;
+}
+
+#logo {
+    height: 80%;
+    margin: 1%;
+    width: auto;
+}
+
+.navbar {
+    font-family: 'Varela Round', sans-serif;
+    border-top:  1px solid #f0eaea ;
+}
+
+.menu:hover {
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#a__navbar-brand--Inicio {
+    color: #43D9D9;
+}
+
+/* Banner de Bienvenida */
+
+#Banner__principal--texto{
+ color: white;
+ position: relative;
+ z-index: 1;
+ font-size: 1.5rem;
+ width: 25%;
+ height: 200px;
+ top: -300px;
+ left: 68%;
+ font-weight: bolder;
+ background-color: rgba(0, 0, 0, 0.377);
+ padding: 2%;
+ border-radius: 20px;
+ font-family: 'Noto Serif', serif;
+ text-align: center;
+}
+
+#section__principal--bienvenido--cuerpo {
+    font-family:'Noto Serif', serif;
+    font-size: 15px;
+}
+
+#section__principal--bienvenido--button{
+    font-family:'Varela Round', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #044A59;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#section__principal--bienvenido--button:hover{
+    background-color: #43D9D9;
+    color: #044A59;
+}
+
+/* Sección de descripción */
+
+#section__principal--descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200pt;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons {
+ margin: 1rem;
+}
+
+#footer__copy--derechos {
+    font-size: 0.7rem;
+    font-family:'Noto Serif', serif;
+    padding-top: 1rem;
+}
+
+#footer__apps{
+    height: 3rem;
+}
+
+#footer__contacto{
+    font-size: 0.9rem;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+
