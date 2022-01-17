@@ -65,16 +65,17 @@ header {
 #section__principal--bienvenido--button{
     font-family:'Varela Round', sans-serif;
     font-size: 20px;
+    width: 80%;
     padding: 10px;
-    color: white;
-    background-color: #044A59;
-    border-radius: 10px;
+    color: #041a1f;
+    background-color: #43D9D9;
+    border-radius: 2rem;
     font-weight: bolder;
 }
 
 #section__principal--bienvenido--button:hover{
-    background-color: #43D9D9;
-    color: #044A59;
+    background-color: #044A59;
+    color: white;
 }
 
 /* Sección de descripción */
@@ -83,7 +84,16 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 200pt;
+    height: 300pt;
+}
+
+#section__principal--descripcion--texto {
+    width: 50%;
+}
+
+
+#section__principal--descripcion--imagen{
+    width: 20rem;
 }
 
 .subtitle{
