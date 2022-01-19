@@ -150,10 +150,11 @@ footer {
 /* Nosotros */
 
 
-#nosotros {
+#nosotros__equipo {
     display: flex;
     flex-direction: row;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     align-items: center;
     width: 100%;
 }
@@ -168,23 +169,44 @@ footer {
     margin: 1%;
 }
 
+.nosotros__card:hover{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 26%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 5%;
+    margin: 1%;
+}
+
 .nosotros__foto{
     width: 80%;
     border-radius: 50%;
     margin: 5%;
-    border: 3px solid #43D9D9;  
+    border: 1px solid #044A59;  
 }
 
 .nosotros__nombres{
     text-align: center;
-    color: #39B2BF;
+    color: #044A59;
     font-size: 1.1rem;
     font-weight: bolder;
+    margin-bottom: 0;
 }
 
 .nosotros__cargo{
     text-align: center;
-    color: grey;
+    color: #43D9D9;
+    font-weight: bolder;
     font-family: 'Varela Round', sans-serif;
+}
+
+#nosotros__intro{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: grey;
+    padding: 2rem;
+    font-size: 2rem;
 }
 
