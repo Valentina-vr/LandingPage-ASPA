@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Contáctanos</title>
+</head>
+
+<body>
+    <header>
+        <img src="./Assets/Logo.png" id="logo" alt="">
+    </header>
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a id="a__navbar-brand--Inicio" class="navbar-brand" href="./index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="./beneficios.html">Beneficios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="./caracteristicas.html">Características</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link menu" href="./precios.html">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu" href="./contactanos.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <label for="nombres" class="form-label">Nombres</label>
+                    <input class="form-control" type="text" id="nombres" placeholder="Nombres" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apellidos" class="form-label">Apellidos</label>
+                    <input class="form-control" type="text" id="apellidos" placeholder="Apellidos" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <input class="form-control" type="text" id="asunto" placeholder="Ingrese el asunto del mensaje">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" name="" id="mensaje" cols="30" rows="10" placeholder="Ingrese aquí su mensaje"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-outline-primary" onclick="validarNombre()">Enviar</button>
+                <button type="button" class="btn btn-outline-primary">Limpiar</button>
+
+            </form>
+        </div>
+        <script src="assets/js/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    </main>
+
+</body>
+
+</html>
