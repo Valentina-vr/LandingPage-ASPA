@@ -147,4 +147,44 @@ footer {
     margin: 1%;
 }
 
+/* Nosotros */
+
+
+#nosotros {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    align-items: center;
+    width: 100%;
+}
+
+.nosotros__card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    margin: 1%;
+}
+
+.nosotros__foto{
+    width: 80%;
+    border-radius: 50%;
+    margin: 5%;
+    border: 3px solid #43D9D9;  
+}
+
+.nosotros__nombres{
+    text-align: center;
+    color: #39B2BF;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.nosotros__cargo{
+    text-align: center;
+    color: grey;
+    font-family: 'Varela Round', sans-serif;
+}
 
